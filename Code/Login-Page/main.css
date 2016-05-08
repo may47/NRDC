@@ -1,0 +1,52 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+
+}
+body {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.login_box{
+
+    width: 40%;
+    background-color: snow;
+    margin:auto;
+    background-color: cyan;
+    text-align: center;
+    padding: 2%;
+    font-family: fantasy;
+    color: white;
+ 
+}
+
+.login-text{
+    line-height: 3;
+    }
+
+input{
+    font-family: fantasy;
+    font-size: 100%;
+    border: 3px solid white;
+    background-color: white;
+    
+}
+
+.btn{
+    height: 5%;
+    width: 20%;
+    border-radius: 5%;
+    padding:2%;
+    margin: auto;
+    border: 2px solid white;
+    }
+
+.btn:hover{
+    color: cyan;
+    background-color: white;
+    
+}
